@@ -1,0 +1,17 @@
+{application, sctp_cli, [
+  {description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {sctp_cli_app, []}},
+  {applications, [
+    kernel,
+    stdlib,
+    lager
+  ]},
+  {env, []},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+]}.
